@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador Lio Blanc</title>
+</head>
+<body>
+    
+    <header>
+        <div class="cajaEncabezado">
+        <img class="logo" src="./imagenes/Logo.png" alt="Logo de alura">
+        </div>
+    </header>
+    <main class="main">
+        <section class="seccion1">
+            <textarea class="caja-encriptar" cols="30" rows="10" placeholder="Ingrese el texto a encriptar"></textarea>
+            <div>
+                <h6 class="informacion">&#33; Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar"  onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion2">
+            <textarea class="mensaje-desencriptado"  cols="30" rows="10"></textarea>
+            <div>
+                <button class="boton-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <img  class="logo-footer" src="./imagenes/oracle__1_-removebg-preview.png" alt="Logo de oracle">
+        <p class="p-copyright">&copy Copyright Lio Blanc - 2023</p>
+        <p class="p-copyright"> Bogotá-Colombia </p>
+            <a href="https://www.linkedin.com/in/lioblanch/">
+                <img class="logo-linkedind" src="./iconos/linkedin.png" alt="005-linkedin Lio blanc">
+            </a>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

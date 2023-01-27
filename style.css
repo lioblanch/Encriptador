@@ -1,0 +1,151 @@
+*{
+    background-color: #fefae0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+.cajaEncabezado{
+    width: 940px;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 940px;
+    margin: 10px 30px;
+}
+
+
+.caja-encriptar{
+    border: none;
+    color: black;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+::placeholder {color: #ccd5ae;}
+    .caja-encriptar:focus{
+        outline: none;
+    }
+
+.mensaje-desencriptado{
+    background: #d4a373;
+    background-image: url(./imagenes/001-Desarrollador.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #ccd5ae;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding: 20px 20px;
+    
+
+}
+
+.mensaje-desencriptado:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar{
+    background-color: #ccd5ae;
+    border: 1px solid #ccd5ae;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.boton-desencriptar{
+    background: #fefae0;
+    border: 1px solid #ccd5ae;
+    border-radius: 24px;
+    color: #ccd5ae;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.boton-copiar{
+    border: 1px solid #ccd5ae;
+    border-radius: 24px;
+    color: #ccd5ae;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 142px;
+    position: static;
+    width: 336px;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+footer{
+    background: #ccd5ae;
+    text-align: center;
+    padding: 40px;
+}
+
+.logo-footer{
+    width: 200px;
+    height: 200px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.p-copyright{
+    margin: 20px;
+    font-size: 18px;
+    background-color: #ccd5ae;
+}
+
+.logo-linkedind{
+    width: 100px;
+    height: 100px;
+    background: #ccd5ae;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+@media screen  and (max-width: 600px){
+    
+    .main, .seccion1, .seccion2, .mensaje-desencriptado, footer{
+        margin: 10px 0;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+    
+}
+
+@media screen  and (max-width: 900px){
+    
+    .main, .seccion1, .seccion2, .mensaje-desencriptado, footer{
+        margin: 10px 0;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+    
+}
